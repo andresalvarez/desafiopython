@@ -1,0 +1,66 @@
+﻿
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Desafio Jogo",
+      "description": "Api para simular N partidas de jogo de quatro jogadores.",
+      "version": "1.0.0"
+    },
+    "host": "",
+    "schemes": [
+      "http"
+    ],
+    "servers": [
+        {
+          "url": "/"
+        }
+      ],
+    "paths": {
+      "/simula": {
+        "post": {
+          "summary": "Retorna o resultado das simulações.",
+          "description": "Simulação N numero de partidas e retorna o resultado.",
+          "requestBody":{
+              "description":" Parametro de entrada: Numero de simulações",
+              "required" : true,
+              "content":
+              {
+                  "application/json":
+                  {
+
+                    "schema": {
+                        "$ref": "#/components/schemas/getsimulaRequestBody"
+                      }
+                 
+              }
+
+            }
+        },
+          "produces": [
+            "application/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+    },
+    "components": {
+
+        "schemas": {
+            "getsimulaRequestBody": {
+                "type": "object",
+                "description": "Numero de simulações a serem Executadas ",
+                "properties": {
+                  "NroSimulacoes": {
+                    "type": "integer",
+                    "format": "integer"
+                  }
+                }
+            }
+        }
+    }
+
+  }

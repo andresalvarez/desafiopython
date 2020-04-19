@@ -1,0 +1,22 @@
+[
+  "Testes/test_aleatorio.py::test_nao_pode_comprar_sem_saldo",
+  "Testes/test_cauteloso.py::test_pode_comprar_quando_houver_saldo_e_sobrar_mais_80",
+  "Testes/test_cauteloso.py::test_nao_pode_comprar_sem_saldo",
+  "Testes/test_cauteloso.py::test_nao_pode_comprar_com_saldo_final_menor_que_80",
+  "Testes/test_exigente.py::test_pode_comprar_quando_houver_saldo_e_aluguel_maior_50",
+  "Testes/test_exigente.py::test_nao_pode_comprar_sem_saldo",
+  "Testes/test_exigente.py::test_nao_pode_comprar_com_saldo_final_menor_que_80",
+  "Testes/test_impulsivo.py::test_nao_pode_comprar_sem_saldo",
+  "Testes/test_impulsivo.py::test_pode_comprar_se_tiver_saldo",
+  "Testes/test_jogo.py::test_trataraluguel_pagar",
+  "Testes/test_jogo.py::test_trataraluguel_receber",
+  "Testes/test_jogo.py::test_comprar_propriedade",
+  "Testes/test_jogo.py::test_Retirar_jogador_do_jogo",
+  "Testes/test_jogo.py::test_Continuar_Jogo",
+  "Testes/test_jogo.py::test_ObterVencedor",
+  "Testes/test_jogo.py::test_finaliza_partida_por_falencia",
+  "Testes/test_propriedade.py::test_criar_propriedade",
+  "Testes/test_propriedade.py::test_setar_proprietario",
+  "Testes/test_propriedade.py::test_se_nao_pertence_jogador",
+  "Testes/test_propriedade.py::test_propriedade_pertence_jogador"
+]
